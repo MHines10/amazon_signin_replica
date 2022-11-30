@@ -1,0 +1,156 @@
+* {
+  /* margin: 0; */
+  font-family: sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: inline-flex;
+  width: 200px;
+  height: 200px;
+  margin-top: 1em;
+  margin-left: 9em;
+}
+
+.sign-in-sec {
+  border: 2px solid rgba(190, 190, 190, 0.413);
+
+  border-radius: 3px;
+  border-spacing: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: em;
+}
+
+.label {
+  display: inline-flex;
+  padding-bottom: 0.5em;
+}
+.fp-link {
+  display: inline;
+  color: rgb(0, 81, 255);
+  text-decoration: none;
+  padding-left: 18em;
+}
+
+.nh-link {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nh-link2 {
+  color: rgb(0, 81, 255);
+  padding-left: 1.5em;
+}
+.sign-in-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: normal;
+  font-size: smaller;
+}
+
+h1 {
+  margin-top: 9px;
+  margin-bottom: 10px;
+  align-self: start;
+  margin-left: 0.8em;
+  font-size: x-large;
+  font-weight: normal;
+}
+
+input {
+  height: 25px;
+  width: 30em;
+  margin-bottom: 1em;
+}
+
+.cont-button {
+  height: 30px;
+  width: 30.5em;
+  margin-top: 10px;
+  background-color: gold;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: gray;
+  font-weight: bold;
+}
+
+.cont-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 0);
+}
+
+.aa-button {
+  display: inline;
+  align-items: center;
+  height: 30px;
+  width: 35em;
+  margin-bottom: 2em;
+  background-color: rgba(162, 162, 162, 0.475);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: gray;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+.aa-button:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.532);
+}
+
+.button-bottom {
+  display: block;
+  width: 100%;
+}
+
+.new p {
+  display: flex;
+  margin-left: 10em;
+  color: rgb(66, 66, 66);
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: smaller;
+}
+
+.foot-link ul {
+  margin: 0;
+}
+
+.foot-link li {
+  display: inline;
+}
+
+.foot-link a {
+  display: inline-block;
+  padding: 0.5em;
+  color: rgb(0, 81, 255);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: small;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 1em;
+  margin-bottom: 5%;
+  font-size: smaller;
+}
+
+hr {
+  border: 1px solid rgba(123, 123, 123, 0.413);
+}
